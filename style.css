@@ -1,0 +1,58 @@
+
+  #opakowanieKalkulator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+#okno {
+    width: 100%;
+    height: 60px;
+    background-color: #e0e0e0;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#opakowanieKalkulator button {
+    width: 23%;
+    height: 50px;
+    margin: 1%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#opakowanieKalkulator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+#opakowanieKalkulator #ON {
+    background-color: #ff8c00;
+    color: #ffffff;
+}
+
+#opakowanieKalkulator #ENTER {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+#opakowanieKalkulator #RES {
+    background-color: #f44336;
+    color: #ffffff;
+}
+#opakowanieKalkulator #OFF {
+    background-color: hsl(184, 43%, 44%);
+    color: #ffffff;
+}
